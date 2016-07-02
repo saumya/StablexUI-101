@@ -4,11 +4,16 @@
 	<meta title="StablexUI 101" package="com.saumya.stablexUI101" version="1.0.0" company="saumya" />
 	<app main="Main" path="Export" file="StablexUI101" />
 
+
+
 	<icon path="Assets/images/icon.svg" />
 	<launchImage path="Assets/images/screenBg.jpg" />
 
 	<window width="400" height="600" if="desktop" />
 	<window width="0" height="0" if="html5" />
+	<!--
+	<window background="0xFFFFFF" width="0" height="0" resizable="true" fullscreen="true" if="mobile"/>
+	-->
 	
 	<source path="Source" />
 	<source path="../../../../6_github/StablexUI/src/" />
