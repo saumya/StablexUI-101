@@ -10,3 +10,10 @@ It throws the following errors
 malloc: *** error for object 0x102b2eeef: pointer being freed was not allocated
 *** set a breakpoint in malloc_error_break to debug
 ```
+
+### Note
+ - It works for other target if compiled with -Dlegacy as below
+
+```
+lime test neko -Dlegacy
+```
