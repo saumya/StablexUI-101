@@ -9,11 +9,15 @@ import ru.stablex.ui.widgets.Text;
 
 class GameEntry extends Sprite {
 	
+
+	private var gWidth:Float;
+	private var gHeight:Float;
+	
 	private var t:Text;
+
 
 	public function new() {
 		super();
-
 		initialise();
 	}
 
@@ -21,6 +25,10 @@ class GameEntry extends Sprite {
 		trace("GameEntry : initialise : ");
 
 		UIBuilder.init();
+
+		gWidth = 400;
+		gHeight = 600;
+
 		construct();
 	}
 
@@ -30,21 +38,26 @@ class GameEntry extends Sprite {
 		var g:Graphics = this.graphics;
 		g.clear();
 		g.beginFill(0xFF0000);
-		g.drawRect(0,0,200,400);
+		g.drawRect(0,0,gWidth,gHeight);
 		g.endFill();
 		
+		/*
 		this.t = UIBuilder.create(Text, {
 			w: 200, h: 40,
 		    left : 0, top  : 0,
 		    text : 'My first widget!'
 		});
 		addChild(this.t);
-		
+		*/
 	}
 
 	public function restart(?newWidth:Float,?newHeight:Float):Void{
 		trace("GameEntry : restart : ");
-		
+		trace("GameEntry : restart : ",newWidth,newHeight);
+		gWidth = newWidth;
+		gHeight = newHeight;
+
+		construct();
 	}
 
 }
