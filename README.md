@@ -1,15 +1,12 @@
 StablexUI 101
 ================
-An [OpenFL][2] application to generate patterns.
+While playing with this library it seems, the library is only good for `Flash` and `HTML` targets.
 
+In a simple project like this, it fails for `Neko` and `mac`.     
 
-### Assets Used
- - [archistico][1]
+It throws the following errors   
 
-For submitting to Playstore and a little more info about how to work with [OpenFL][2], read [the docs at my other project here][6].
-
-
-[1]: https://www.fontsquirrel.com/fonts/archistico
-[2]: http://openfl.org/
-
-[6]: https://github.com/saumya/9Patterns
+```
+malloc: *** error for object 0x102b2eeef: pointer being freed was not allocated
+*** set a breakpoint in malloc_error_break to debug
+```

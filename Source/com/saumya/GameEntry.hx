@@ -36,14 +36,14 @@ class GameEntry extends Sprite {
 		trace("GameEntry : construct : ");
 		drawBg();
 
-		/*
+		//StablexUI Widget
 		this.t = UIBuilder.create(Text, {
 			w: 200, h: 40,
 		    left : 0, top  : 0,
 		    text : 'My first widget!'
 		});
 		addChild(this.t);
-		*/
+		
 	}
 
 	public function restart(?newWidth:Float,?newHeight:Float):Void{
