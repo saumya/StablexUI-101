@@ -34,13 +34,8 @@ class GameEntry extends Sprite {
 
 	public function construct():Void{
 		trace("GameEntry : construct : ");
+		drawBg();
 
-		var g:Graphics = this.graphics;
-		g.clear();
-		g.beginFill(0xFF0000);
-		g.drawRect(0,0,gWidth,gHeight);
-		g.endFill();
-		
 		/*
 		this.t = UIBuilder.create(Text, {
 			w: 200, h: 40,
@@ -57,7 +52,15 @@ class GameEntry extends Sprite {
 		gWidth = newWidth;
 		gHeight = newHeight;
 
-		construct();
+		drawBg();
+	}
+
+	private function drawBg():Void{
+		var g:Graphics = this.graphics;
+		g.clear();
+		g.beginFill(0xFF0000);
+		g.drawRect(0,0,gWidth,gHeight);
+		g.endFill();
 	}
 
 }
