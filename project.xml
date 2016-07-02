@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="StablexUI 101" package="com.saumya.stablexUI101" version="1.0.0" company="saumya" />
+	<app main="Main" path="Export" file="StablexUI101" />
+
+	<icon path="Assets/images/icon.svg" />
+	<launchImage path="Assets/images/screenBg.jpg" />
+
+	<window width="800" height="700" if="desktop" />
+	<window width="0" height="0" if="html5" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	<haxelib name="actuate" />
+
+	<assets path="Assets" rename="assets" />
+
+	<assets path="Assets/fonts" rename="fonts" include="*.ttf" />
+	<assets path="Assets/images" rename="images" include="*" exclude="icon.svg" />
+
+	<!-- Singing --
+	
+	<android target-sdk-version="23" minimum-sdk-version="7" />
+	<android install-location="preferExternal" />
+	<certificate if="android" alias="9Patterns" path="/Users/saumya/Documents/2_dev/7_stores/1_GooglePlayStore/ninePatterns.keystore" /> 
+	
+	-->
+
+	<!-- <certificate if="android" path="/Users/saumyaray/devHome/webApps/haxe/openfl/0_myApps/androidCertificates/r-key.keystore" /> -->
+	
+</project>
