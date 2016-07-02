@@ -11,6 +11,7 @@
 	<window width="0" height="0" if="html5" />
 	
 	<source path="Source" />
+	<source path="../../../../6_github/StablexUI/src/" />
 	
 	<haxelib name="openfl" />
 	<haxelib name="actuate" />

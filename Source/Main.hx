@@ -3,6 +3,8 @@ package;
 
 import openfl.display.Sprite;
 
+import com.saumya.GameEntry;
+
 
 class Main extends Sprite {
 	
@@ -12,7 +14,8 @@ class Main extends Sprite {
 		super ();
 		
 		
-		
+		var game:GameEntry = new GameEntry();
+		addChild(game);
 	}
 	
 	
