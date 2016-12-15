@@ -35,7 +35,7 @@ class GameEntry extends Sprite {
 	public function construct():Void{
 		trace("GameEntry : construct : ");
 		drawBg();
-
+		/*
 		//StablexUI Widget
 		this.t = UIBuilder.create(Text, {
 			w: 200, h: 40,
@@ -43,7 +43,8 @@ class GameEntry extends Sprite {
 		    text : 'My first widget!'
 		});
 		addChild(this.t);
-		
+		*/
+		addChild( UIBuilder.buildFn('sui/ScrollView.xml')() );
 	}
 
 	public function restart(?newWidth:Float,?newHeight:Float):Void{

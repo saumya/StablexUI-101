@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scroll skin:Paint-border="1" skin:Paint-color="0xCCCCCC" w="200" h="100" left="10" top="10">
+	<VBox  w="100" h="200" left="20" top="10">
+		<Text w="50" label-selectable="false" text="'You can\'t select me 1'"/>		
+		<Text label-selectable="false" text="'You can\'t select me'"/>		
+		<Text label-selectable="false" text="'You can\'t select me'"/>		
+		<Text label-selectable="false" text="'You can\'t select me'"/>		
+		<Text label-selectable="false" text="'You can\'t select me'"/>		
+		<Text label-selectable="false" text="'You can\'t select me'"/>		
+		<Text label-selectable="false" text="'You can\'t select me'"/>		
+		<Text label-selectable="false" text="'You can\'t select me'"/>		
+		<Text label-selectable="false" text="'You can\'t select me'"/>		
+		<Text label-selectable="false" text="'You can\'t select me'"/>		
+		<Text label-selectable="false" text="'You can\'t select me 0'"/>		
+	</VBox>
+</Scroll>
