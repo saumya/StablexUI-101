@@ -6,6 +6,7 @@ import openfl.display.Sprite;
 import ru.stablex.ui.UIBuilder;
 
 import ru.stablex.ui.widgets.Text;
+import ru.stablex.ui.widgets.VBox;
 
 class GameEntry extends Sprite {
 	
@@ -35,16 +36,20 @@ class GameEntry extends Sprite {
 	public function construct():Void{
 		trace("GameEntry : construct : ");
 		drawBg();
-		/*
+		
 		//StablexUI Widget
 		this.t = UIBuilder.create(Text, {
-			w: 200, h: 40,
+			w: 100, h: 40,
 		    left : 0, top  : 0,
-		    text : 'My first widget!'
+		    text : '[code widget]'
 		});
-		addChild(this.t);
-		*/
-		addChild( UIBuilder.buildFn('sui/ScrollView.xml')() );
+		//addChild(this.t);
+		
+		this.addChild( UIBuilder.buildFn('sui/ScrollView.xml')() );
+		//
+		//var vBox:VBox = cast UIBuilder.get('idVBox');
+		var vBox:VBox = cast UIBuilder.getAs('idVBox', VBox);
+		vBox.addChild(this.t);
 	}
 
 	public function restart(?newWidth:Float,?newHeight:Float):Void{

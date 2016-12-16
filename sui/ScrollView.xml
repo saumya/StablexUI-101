@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Scroll skin:Paint-border="1" skin:Paint-color="0xCCCCCC" w="200" h="100" left="10" top="10">
-	<VBox  w="100" h="200" left="20" top="10">
-		<Text w="50" label-selectable="false" text="'You can\'t select me 1'"/>		
+<Scroll id="'idScroll'" skin:Paint-border="1" skin:Paint-color="0xCCCCCC" w="200" h="100" left="10" top="10">
+	<VBox id=" 'idVBox' " w="100" h="300" left="20" top="10">
+		<Text w="50" label-selectable="false" text="'======== 1 ========'"/>		
 		<Text label-selectable="false" text="'You can\'t select me'"/>		
-		<Text label-selectable="false" text="'You can\'t select me'"/>		
-		<Text label-selectable="false" text="'You can\'t select me'"/>		
-		<Text label-selectable="false" text="'You can\'t select me'"/>		
-		<Text label-selectable="false" text="'You can\'t select me'"/>		
-		<Text label-selectable="false" text="'You can\'t select me'"/>		
-		<Text label-selectable="false" text="'You can\'t select me'"/>		
-		<Text label-selectable="false" text="'You can\'t select me'"/>		
-		<Text label-selectable="false" text="'You can\'t select me'"/>		
-		<Text label-selectable="false" text="'You can\'t select me 0'"/>		
+		<Text label-selectable="false" text="'one'"/>		
+		<Text label-selectable="false" text="'two'"/>		
+		<Text label-selectable="false" text="'3333333333333'"/>		
+		<Text label-selectable="false" text="'44444444444'"/>		
+		<Text label-selectable="false" text="'5555555555'"/>		
+		<Text label-selectable="false" text="'6666666'"/>		
+		<Text label-selectable="false" text="'777777'"/>		
+		<Text label-selectable="false" text="'888888'"/>		
+		<Text label-selectable="false" text="'======== 0'"/>		
 	</VBox>
 </Scroll>
