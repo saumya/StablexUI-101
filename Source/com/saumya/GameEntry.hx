@@ -2,11 +2,13 @@ package com.saumya;
 
 import openfl.display.Graphics;
 import openfl.display.Sprite;
+import openfl.events.MouseEvent;
 
 import ru.stablex.ui.UIBuilder;
 
 import ru.stablex.ui.widgets.Text;
 import ru.stablex.ui.widgets.VBox;
+import ru.stablex.ui.widgets.Button;
 
 class GameEntry extends Sprite {
 	
@@ -50,6 +52,16 @@ class GameEntry extends Sprite {
 		//var vBox:VBox = cast UIBuilder.get('idVBox');
 		var vBox:VBox = cast UIBuilder.getAs('idVBox', VBox);
 		vBox.addChild(this.t);
+		//
+		this.addChild( UIBuilder.buildFn('sui/WidgetsView.xml')() );
+		//
+		//idMyBtn
+		var btnMyBtn:Button = cast UIBuilder.getAs('idMyBtn', Button);
+		btnMyBtn.addEventListener('click',onBtnClick);
+	}
+	
+	private function onBtnClick(e:MouseEvent):Void{
+		trace('Button Clicked !');
 	}
 
 	public function restart(?newWidth:Float,?newHeight:Float):Void{
@@ -64,7 +76,7 @@ class GameEntry extends Sprite {
 	private function drawBg():Void{
 		var g:Graphics = this.graphics;
 		g.clear();
-		g.beginFill(0xFF0000);
+		g.beginFill(0xAAAAAA);
 		g.drawRect(0,0,gWidth,gHeight);
 		g.endFill();
 	}
