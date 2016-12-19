@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VBox id=" 'idLoginView' " w="200" h="80" left="20" top="300" skin:Paint-border="1" skin:Paint-color="0xCCCCCC">
-	<Text label-selectable="true" text="'userid'"/>
-	<Text label-selectable="true" text="'password'"/>
-	<Button id=" 'idLogin' " text=" 'Login' " />
+<VBox id=" 'idLoginView' " w="240" h="100" left="20" top="300" skin:Paint-border="1" skin:Paint-color="0xCCCCCC">
+	<HBox>
+		<Text label-selectable="true" text="'userid'" w="60" />
+		<InputText label-selectable="true" text="''" w="150" skin:Paint-border="1" skin:Paint-color="0x999999"/>
+	</HBox>
+	<HBox paddingTop="5">
+		<Text label-selectable="true" text="'password'" w="60" />
+		<InputText label-selectable="true" text="''" w="150" skin:Paint-border="1" skin:Paint-color="0x999999"/>
+	</HBox>
+	<HBox paddingTop="10">
+		<Button id=" 'idLogin' " text=" 'Login' " w="60" skin:Paint-border="1" skin:Paint-color="0x999999" />
+		<Box w="20" skin:Paint-border="1" skin:Paint-color="0x999999"/>
+		<Button id=" 'idRegister' " text=" 'Register' " w="60" skin:Paint-border="1" skin:Paint-color="0x999999" />
+	</HBox>
 </VBox>

@@ -7,6 +7,7 @@ import openfl.events.MouseEvent;
 import ru.stablex.ui.UIBuilder;
 
 import ru.stablex.ui.widgets.Text;
+import ru.stablex.ui.widgets.InputText;
 import ru.stablex.ui.widgets.VBox;
 import ru.stablex.ui.widgets.Button;
 
