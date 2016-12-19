@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VBox id=" 'idLoginView' " w="200" h="80" left="20" top="300" skin:Paint-border="1" skin:Paint-color="0xCCCCCC">
+	<Text label-selectable="true" text="'userid'"/>
+	<Text label-selectable="true" text="'password'"/>
+	<Button id=" 'idLogin' " text=" 'Login' " />
+</VBox>

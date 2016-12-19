@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Scroll id="'idScroll'" skin:Paint-border="1" skin:Paint-color="0xCCCCCC" w="200" h="100" left="10" top="200">
+<Scroll id="'idScroll'" w="200" h="100" left="10" top="120" skin:Paint-border="1" skin:Paint-color="0xCCCCCC">
 	<VBox id=" 'idVBox' " w="100" h="300" left="20" top="10">
 		<Text w="50" label-selectable="false" text="'======== 1 ========'"/>		
 		<Text label-selectable="false" text="'You can\'t select me'"/>		

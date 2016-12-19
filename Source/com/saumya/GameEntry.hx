@@ -57,7 +57,9 @@ class GameEntry extends Sprite {
 		//
 		//idMyBtn
 		var btnMyBtn:Button = cast UIBuilder.getAs('idMyBtn', Button);
-		btnMyBtn.addEventListener('click',onBtnClick);
+		btnMyBtn.addEventListener('click', onBtnClick);
+		//
+		this.addChild( UIBuilder.buildFn('sui/WidgetLogin.xml')() );
 	}
 	
 	private function onBtnClick(e:MouseEvent):Void{
