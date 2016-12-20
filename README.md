@@ -1,11 +1,15 @@
 StablexUI 101
 ================
 
-Updated to Openfl 4.5.1 and it runs fine.
+
 
 TODO: Test in mobile devices.
 
-
+Third
+===============
+Windows : Updated to Openfl 4.5.1 and it runs fine.
+Linux : Could not compile ( Haxe:3.2.1, Neko:2.1.0, openfl:4.5.1, lime:3.5.1 )
+Mac : Not tested yet
 
 Second
 ================
