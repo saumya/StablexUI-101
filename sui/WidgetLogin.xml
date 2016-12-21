@@ -10,7 +10,7 @@
 	</HBox>
 	<HBox paddingTop="10">
 		<Button id=" 'idLogin' " text=" 'Login' " w="60" skin:Paint-border="1" skin:Paint-color="0x999999" />
-		<Box w="20" skin:Paint-border="1" skin:Paint-color="0x999999"/>
+		<Box w="4" skin:Paint-border="1" skin:Paint-color="0x999999"/>
 		<Button id=" 'idRegister' " text=" 'Register' " w="60" skin:Paint-border="1" skin:Paint-color="0x999999" />
 	</HBox>
 </VBox>
