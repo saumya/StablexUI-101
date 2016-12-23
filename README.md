@@ -3,7 +3,9 @@ StablexUI 101
 
 
 
-TODO: Test in mobile devices.
+### TODO 
+	- Test in mobile devices.
+	- Make a simple application
 
 Third
 ===============
