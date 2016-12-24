@@ -67,6 +67,13 @@ class GameEntry extends Sprite {
 	
 	private function onBtnClick(e:MouseEvent):Void{
 		trace('Button Clicked !');
+		var t:Text = UIBuilder.create(Text, {
+			w: 100, h: 40,
+		    left : 0, top  : 0,
+		    text : '[code widget]'
+		});
+		var vBox:VBox = cast UIBuilder.getAs('idVBox', VBox);
+		vBox.addChild(t);
 	}
 	
 	private function onLogin(e:MouseEvent):Void{
