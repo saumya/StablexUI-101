@@ -1,10 +1,7 @@
 StablexUI 101
 ================
 
-
-
-### TODO 
-	- Make a simple application
+A simple test to see if this library is workable. Seems like it is.
 
 
 4th
