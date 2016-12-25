@@ -3,6 +3,15 @@ package com.saumya;
 import openfl.display.Graphics;
 import openfl.display.Sprite;
 import openfl.events.MouseEvent;
+import openfl.events.Event;
+import openfl.events.ErrorEvent;
+import openfl.events.IOErrorEvent;
+
+import openfl.net.URLLoader;
+import openfl.net.URLRequest;
+import openfl.net.URLRequestMethod;
+import openfl.net.URLRequestHeader;
+
 
 import ru.stablex.ui.UIBuilder;
 
@@ -78,6 +87,22 @@ class GameEntry extends Sprite {
 	
 	private function onLogin(e:MouseEvent):Void{
 		trace('Button Clicked : Login ');
+		// make an API call
+		var url = "http://mydomain.com/app/app_version.php";     
+    	var request:URLRequest = new URLRequest(url);
+    	request.method = URLRequestMethod.GET;
+    	request.contentType = "application/json";
+    	var urlLoader = new URLLoader();
+    	urlLoader.addEventListener(Event.COMPLETE, function(evt){
+    		var data = haxe.Json.parse(evt.target.data);
+    		trace(data);
+    		trace('App ID ='+data.app_id+' : App Version ='+data.app_version);
+    	});
+    	urlLoader.addEventListener(ErrorEvent.ERROR, function(err) { trace("Error"); } );
+		urlLoader.addEventListener(IOErrorEvent.IO_ERROR, function(err) { trace("IOError"); } );
+		//
+		urlLoader.load(request);
+
 	}
 
 	public function restart(?newWidth:Float,?newHeight:Float):Void{
