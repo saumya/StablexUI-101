@@ -3,6 +3,9 @@ StablexUI 101
 
 A simple test to see if this library is workable. Seems like it is.
 
+5th
+===============
+ - Tested with a REST call, working fine.
 
 4th
 ===============
