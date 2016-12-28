@@ -3,6 +3,20 @@ StablexUI 101
 
 A simple test to see if this library is workable. Seems like it is.
 
+
+7th
+==============
+ - OpenFL 4.5.2
+ - Lime 3.5.2
+ - Everything works as expected
+ 
+
+6th
+==============
+ - OpenFL set to 3.6.1
+ - Lime set to 2.9.1
+ - Now UI is all messed up, not rendering properly
+
 5th
 ===============
  - Tested with a REST call, working fine.

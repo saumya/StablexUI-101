@@ -11,28 +11,27 @@
     <movie version="1" />
     <movie minorVersion="0" />
     <movie platform="Lime" />
-    <movie background="#FFFFFF" />
+    <movie background="FFFFFF" />
     <movie preferredSDK=";3;" />
   </output>
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
-    <class path="C:\HaxeToolkit\haxe\lib\openfl\4,5,1" />
-    <class path="C:\HaxeToolkit\haxe\lib\lime\3,5,1" />
+    <class path="C:\HaxeToolkit\haxe\lib\openfl\3,6,1" />
+    <class path="C:\HaxeToolkit\haxe\lib\lime\2,9,1" />
     <class path="C:\HaxeToolkit\haxe\lib\actuate\1,8,7" />
     <class path="Source" />
     <class path="..\StablexUI\src" />
-    <class path="C:\HaxeToolkit\haxe\lib\openfl\4,5,1\externs\core\openfl" />
-    <class path="C:\HaxeToolkit\haxe\lib\openfl\4,5,1\externs\extras" />
-    <class path="Export\windows\neko\release\haxe" />
+    <class path="C:\HaxeToolkit\haxe\lib\openfl\3,6,1\extern" />
+    <class path="Export\windows\neko\haxe" />
   </classpaths>
   <!-- Build options -->
   <build>
-    <option directives="openfl=4.5.1&#xA;lime=3.5.1&#xA;actuate=1.8.7&#xA;tools=3.5.1&#xA;no-compilation&#xA;native&#xA;lime-native&#xA;openfl-native&#xA;lime-cffi&#xA;windows&#xA;desktop&#xA;display" />
+    <option directives="openfl=3.6.1&#xA;lime=2.9.1&#xA;actuate=1.8.7&#xA;openfl-next&#xA;tools=2.9.1&#xA;no-compilation&#xA;native&#xA;lime-native&#xA;openfl-native&#xA;windows&#xA;desktop&#xA;display" />
     <option flashStrict="False" />
     <option noInlineOnDebug="False" />
     <option mainClass="ApplicationMain" />
     <option enabledebug="False" />
-    <option additional="--macro openfl._internal.utils.ExtraParams.include()&#xA;--macro lime.Lib.extraParams()&#xA;--remap flash:openfl" />
+    <option additional="--remap flash:openfl&#xA;-debug " />
   </build>
   <!-- haxelib libraries -->
   <haxelib>
