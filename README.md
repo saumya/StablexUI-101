@@ -3,6 +3,13 @@ StablexUI 101
 
 A simple test to see if this library is workable. Seems like it is.
 
+Note about TextInput
+=============
+This is common to OpenFL not particularly to StablexUI.
+
+ - The blinking cursor is only available in Flash Target !
+ - Searching for a way to show blinking cursor on Other targets
+
 
 7th
 ==============
