@@ -7,7 +7,7 @@ Note about TextInput
 =============
 This is common to OpenFL not particularly to StablexUI.
 
- - The blinking cursor is only available in Flash Target !
+ - The blinking cursor is `not available` on CPP targets !
  - Searching for a way to show blinking cursor on Other targets
 
 
