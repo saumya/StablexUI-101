@@ -1,7 +1,7 @@
 StablexUI 101
 ================
 
-A simple test to see if this library is workable. Seems like it is.
+A project to research StablexUI.
 
 Note about TextInput
 =============
