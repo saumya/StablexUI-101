@@ -1,7 +1,9 @@
 StablexUI 101
 ================
 
-A simple test to see if this library is workable. Seems like it is.
+A project to research StablexUI.
+
+It runs fine in OpenFL and on all the platforms, macOS, Linux and Windows.
 
 Note about TextInput
 =============
