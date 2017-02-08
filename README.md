@@ -10,6 +10,11 @@ This is common to OpenFL not particularly to StablexUI.
  - The blinking cursor is `not available` on CPP targets !
  - Searching for a way to show blinking cursor on Other targets
 
+8th
+==============
+ - OpenFL 4.7.3
+ - Lime 3.7.2
+ - All is well
 
 7th
 ==============

@@ -16,7 +16,8 @@
 	-->
 	
 	<source path="Source" />
-	<source path="../StablexUI/src/" />
+	<!-- <source path="../StablexUI/src/" /> -->
+	<source path="../../../6_github/StablexUI/src/" />
 	
 	<haxelib name="openfl" />
 	<haxelib name="actuate" />
