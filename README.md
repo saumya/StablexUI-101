@@ -12,6 +12,7 @@ This is common to OpenFL not particularly to StablexUI.
 
 8th
 ==============
+ - HAXE 3.4.0
  - OpenFL 4.7.3
  - Lime 3.7.2
  - All is well
